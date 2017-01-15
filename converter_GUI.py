@@ -14,7 +14,7 @@ def onButtonKinM():
     answer = float(toCalc) * 0.621371
     output.config(text=answer)
 
-greeting = Label(window, text='Der ultimative Umrechner von Kilometern in Meilen und umgekehrt!')
+greeting = Label(window, text='Der ultimative Umrechner von Meilen in Kilometer und umgekehrt!')
 greeting.pack(side='top')
 
 input = Entry(window)
